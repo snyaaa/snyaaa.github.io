@@ -869,56 +869,7 @@ header .go-back i {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#articles1 {
-    background: #fff;
-    width: 60%;
-    padding: 20px 250px 50px 50px;
-    margin: 0px 40px 40px 100px;
-    display: block;
-    position: relative;
-    z-index: 3;
-    margin-top: -80px;
-    border-radius: 10px;
-  }
 
-.card1 {
-    width: 795.35px;
-    height: 220px;
-    display: block;
-    border: none;
-    margin-top: 40px;
-    padding: 10px;
-    margin: 0px;
-    position: relative;
-  }
-.responsive-img1 {
-    width: 40%;
-    height: 40%;
-    float: left;
-    padding: 3px 50px 50px 0px;
-  }
-.txt {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-#sidenav-right {
-    padding: 20px 0px 5px 10px;
-    float: right;
-    position: relative;
-    width: 450px;
-
-    margin: 120px 30px 100px 100px;
-    /* box-shadow: 1px 3px 4px  #888888;
- */
-  }
-
-.hr {
-    width: 810px;
-    color: darkblue;
-    position: relative;
-  }
 
 article a {
     margin-right: 0 !important;
