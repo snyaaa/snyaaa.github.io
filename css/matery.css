@@ -1,9 +1,30 @@
 /*全局基础样式*/
+/* 清除浏览器默认边距，
+使边框和内边距的值包含在元素的width和height内 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
     .container {
         width: 95%;
     }
+    /* #articles1 {
+        width: 95%;
+    }
+    .card1 .titlesize{
+        width: 95%;
+        height: auto;
+        font-size: 1.25em;
+    }
+    .responsive-img1 {
+        width: 90%;
+        height: 90%;
+        float: left;
+        padding: 3px 20px 0px 0px;
+    } */
 }
 
 /*中等屏幕下(平板类)的样式*/
@@ -11,6 +32,18 @@
     .container {
         width: 90%;
     }
+    /* #articles1 {
+        width: 90%;
+    }
+    .card1 {
+        width: 85%;
+    }
+    .responsive-img1 {
+        width: 90%;
+        height: 90%;
+        float: left;
+        padding: 3px 20px 20px 0px;
+    } */
 }
 
 /*大屏幕下(桌面类)的样式*/
@@ -23,7 +56,7 @@
     .head-container {
         position: absolute;
         padding: 0 30px;
-        width: 100%;
+        width: 90%;
     }
 
     .post-container {
@@ -31,6 +64,20 @@
         margin: 0 auto;
         max-width: 1250px;
     }
+    /* #articles1 {
+        width: 75%;
+        margin: 20px ;
+    }
+    .card1 {
+        width: 90%;
+    }
+    .responsive-img1 {
+        width: 30%;
+        height: 30%;
+        float: left;
+        padding: 3px 20px 20px 0px;
+    }
+    */
 }
 
 body {
@@ -869,6 +916,7 @@ header .go-back i {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 
 article a {
     margin-right: 0 !important;
@@ -1835,6 +1883,7 @@ thead {
 /*尾部样式*/
 footer {
     padding-bottom: 1px;
+    margin: 0 auto;
 }
 
 footer .social-statis {

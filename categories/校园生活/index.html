@@ -350,29 +350,29 @@
                 
                 
                 
-                <a href="/categories/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB/" title="校园生活: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #F9EBEA;">校园生活
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/categories/%E9%A1%B9%E7%9B%AE%E5%B1%95%E7%A4%BA/" title="项目展示: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">项目展示
+                            style="background-color: #F9EBEA;">项目展示
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" title="国际胜任力: 1">
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" title="国际胜任力: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">国际胜任力
-                        <span class="tag-length">1</span>
+                            style="background-color: #F5EEF8;">国际胜任力
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB/" title="校园生活: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #D5F5E3;">校园生活
+                        <span class="tag-length">4</span>
                     </span>
                 </a>
                 
@@ -420,7 +420,10 @@
  -->
 
   <!-- 侧边栏 -->
-  <div id="sidenav-right">
+  <!-- <div id="sidenav-right" class="expanded col m1 l1 hide-on-med-and-down"> -->
+  <div id="sidenav-right" class="expanded col l3 hide-on-med-and-down">
+    <!-- col s12 m12 l9 -->
+    
 
 <div id="tags" class="container chip-container">
     <div class="card">
@@ -548,15 +551,6 @@
                 </a>
                 
                 
-                <a href="/tags/%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB/" title="中美关系: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="中美关系" style="background-color: #A3E4D7;">中美关系
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/%E5%88%9B%E6%96%B0/" title="创新: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -579,6 +573,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="深信" style="background-color: #F9EBEA;">深信
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E4%B8%AD%E7%BE%8E%E5%85%B3%E7%B3%BB/" title="中美关系: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="中美关系" style="background-color: #A3E4D7;">中美关系
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -631,78 +634,139 @@
             </div>
         </div>
     </div>
-</div></div>
+</div>
+  </div>
 
   
 
   <style>
-    #articles {
+    @media only screen and (max-width: 601px) {
+      .container {
+        width: 95%;
+      }
+      #articles1 {
+        width: 95%;
+      }
+      .card1 .titlesize {
+        width: 95%;
+        height: auto;
+        font-size: 1em;
+      }
+      .responsive-img1 {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 3px 0px 5px 0px;
+        margin: auto;
+      }
+      /* hr {
+        width: 90%;
+        color: darkblue;
+        position: relative;
+      } */
+    }
+    /*中等屏幕下(平板类)的样式*/
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
+      .container {
+        width: 90%;
+      }
+      #articles1 {
+        width: 95%;
+      }
+      .card1 {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .responsive-img1 {
+        width: 40%;
+        height: 40%;
+        float: left;
+        padding: 3px 20px 20px 0px;
+        margin: auto;
+      }
+    }
+    /*大屏幕下(桌面类)的样式*/
+    @media only screen and (min-width: 993px) {
+      .container {
+        width: 90%;
+        max-width: 1125px;
+      }
+
+      .head-container {
+        position: absolute;
+        padding: 0 30px;
+        width: 90%;
+      }
+
+      .post-container {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1250px;
+      }
+      #articles1 {
+        width: 65%;
+        height: auto;
+        margin: 5px 20px 0px 30px;
+      }
+      .card1 {
+        width: 90%;
+        height: 80%;
+        display: block;
+        margin: 0;
+        padding: 10px 0px 30px 0px;
+      }
+      .responsive-img1 {
+        width: 30%;
+        height: 30%;
+        float: left;
+        padding: 0px 20px 30px 10px;
+        margin: 5px;
+      }
+      #sidenav-right {
+        width: 30%;
+        float: right;
+        padding: 10px 0px 0px 0px;
+        margin: 130px 30px 10px 10px;
+      }
+      h3 {
+        margin-top: 10px;
+        margin-bottom: 35px;
+      }
+      .summary {
+        height: 300px;
+      }
+    }
+
+    #articles1 {
       background: #fff;
-      width: 60%;
-      padding: 20px 250px 50px 50px;
-      margin: 0px 40px 40px 100px;
       display: block;
       position: relative;
+      padding: 20px;
       z-index: 3;
       margin-top: -80px;
       border-radius: 10px;
     }
-    .card1 {
-      width: 795.35px;
-      height: 220px;
-      display: block;
-      border: none;
-      margin-top: 40px;
-      padding: 10px;
-      margin: 0px;
-      position: relative;
-    }
-    .responsive-img {
-      width: 40%;
-      height: 40%;
-      float: left;
-      padding: 3px 50px 50px 0px;
-    }
-    h3 {
-      position: relative;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    #sidenav-right {
-      padding: 20px 0px 5px 10px;
-      float: right;
-      position: relative;
-      width: 450px;
-
-      margin: 120px 30px 100px 100px;
-      /* box-shadow: 1px 3px 4px  #888888;
-       */
-    }
-
-    hr {
-      width: 810px;
-      color: darkblue;
-      position: relative;
-    }
   </style>
-  <article id="articles" class="container articles">
+  <article id="articles1" class="container articles">
     <div class="row tags-posts">
       
-      <div class="article tag-post" data-aos="zoom-in">
-        <div class="card1">
-          <a href="/yang-cheng-wan-bao-yang-cheng-pai-shen-zhen-shen-xin-yuan-shi-sheng-zhu-li-bei-jing-dong-ao-hui-gong-xian-shen-zhen-xin-xi-li-liang/59269.html">
+      <div class="article1 tag-post" data-aos="zoom-in">
+        <div class="card1 col-lg-8 col-md-5 col-sm3">
+          <a href="/posts/abbrlink.html">
             <div class="card-image tag-image">
                
               <img
                 src="/medias/featureimages/16.jpg"
-                class="responsive-img"
+                class="responsive-img1"
                 alt="［羊城晚报•羊城派］深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量"
               />
               
             </div>
 
-            <span class="card-title"><h3>［羊城晚报•羊城派］深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量</h3></span>
+            <span class="card-title"
+              ><h3 class="titlesize">［羊城晚报•羊城派］深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量</h3></span
+            >
           </a>
           <div class="card-content article-content">
             <div class="summary block-with-text">
@@ -741,20 +805,22 @@
         <hr />
       </div>
       
-      <div class="article tag-post" data-aos="zoom-in">
-        <div class="card1">
-          <a href="/wo-xiao-6-ge-xiang-mu-huo-pi-jiao-yu-bu-shou-qi-gong-xu-dui-jie-jiu-ye-yu-ren-xiang-mu/30979.html">
+      <div class="article1 tag-post" data-aos="zoom-in">
+        <div class="card1 col-lg-8 col-md-5 col-sm3">
+          <a href="/posts/abbrlink.html">
             <div class="card-image tag-image">
                
               <img
                 src="/medias/featureimages/12.jpg"
-                class="responsive-img"
+                class="responsive-img1"
                 alt="我校6个项目获批教育部首期供需对接就业育人项目"
               />
               
             </div>
 
-            <span class="card-title"><h3>我校6个项目获批教育部首期供需对接就业育人项目</h3></span>
+            <span class="card-title"
+              ><h3 class="titlesize">我校6个项目获批教育部首期供需对接就业育人项目</h3></span
+            >
           </a>
           <div class="card-content article-content">
             <div class="summary block-with-text">
@@ -785,20 +851,22 @@
         <hr />
       </div>
       
-      <div class="article tag-post" data-aos="zoom-in">
-        <div class="card1">
-          <a href="/5000-yu-ren-xian-shang-can-hui-shou-jie-shi-jing-wen-hua-jiao-yu-yan-tao-feng-hui-zai-wo-xiao-zhao-kai/4209.html">
+      <div class="article1 tag-post" data-aos="zoom-in">
+        <div class="card1 col-lg-8 col-md-5 col-sm3">
+          <a href="/posts/abbrlink.html">
             <div class="card-image tag-image">
                
               <img
                 src="/medias/featureimages/9.jpg"
-                class="responsive-img"
+                class="responsive-img1"
                 alt="5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开"
               />
               
             </div>
 
-            <span class="card-title"><h3>5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开</h3></span>
+            <span class="card-title"
+              ><h3 class="titlesize">5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开</h3></span
+            >
           </a>
           <div class="card-content article-content">
             <div class="summary block-with-text">
@@ -832,20 +900,22 @@
         <hr />
       </div>
       
-      <div class="article tag-post" data-aos="zoom-in">
-        <div class="card1">
-          <a href="/hui-ju-shen-xin-li-liang-qi-xin-kang-ji-yi-qing/26328.html">
+      <div class="article1 tag-post" data-aos="zoom-in">
+        <div class="card1 col-lg-8 col-md-5 col-sm3">
+          <a href="/posts/abbrlink.html">
             <div class="card-image tag-image">
                
               <img
                 src="/medias/featureimages/2.jpg"
-                class="responsive-img"
+                class="responsive-img1"
                 alt="汇聚深信力量 齐心抗击疫情"
               />
               
             </div>
 
-            <span class="card-title"><h3>汇聚深信力量 齐心抗击疫情</h3></span>
+            <span class="card-title"
+              ><h3 class="titlesize">汇聚深信力量 齐心抗击疫情</h3></span
+            >
           </a>
           <div class="card-content article-content">
             <div class="summary block-with-text">
@@ -886,104 +956,154 @@
 
 
     <footer class="page-footer bg-color">
-    
-    <div class="container row center-align" style="margin-bottom: 15px !important;">
-        <div class="col s12 m8 l8 copy-right">
-            Copyright&nbsp;&copy;
-            
-                <span id="year">2022</span>
-            
-            <span id="year">2022</span>
-            <a href="/about" target="_blank">Snyaaa</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
-            <br>
-            
-            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">35.7k</span>&nbsp;字
-            
-            
-            
-            
-            
-            
-            <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
-            </span>
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
-            
-            <br>
-            
-            <span id="sitetime">载入运行时间...</span>
-            <script>
-                function siteTime() {
-                    var seconds = 1000;
-                    var minutes = seconds * 60;
-                    var hours = minutes * 60;
-                    var days = hours * 24;
-                    var years = days * 365;
-                    var today = new Date();
-                    var startYear = "2022";
-                    var startMonth = "3";
-                    var startDate = "25";
-                    var startHour = "0";
-                    var startMinute = "0";
-                    var startSecond = "0";
-                    var todayYear = today.getFullYear();
-                    var todayMonth = today.getMonth() + 1;
-                    var todayDate = today.getDate();
-                    var todayHour = today.getHours();
-                    var todayMinute = today.getMinutes();
-                    var todaySecond = today.getSeconds();
-                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
-                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
-                    var diff = t2 - t1;
-                    var diffYears = Math.floor(diff / years);
-                    var diffDays = Math.floor((diff / days) - diffYears * 365);
-                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
-                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
-                        minutes);
-                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
-                        diffMinutes * minutes) / seconds);
-                    if (startYear == todayYear) {
-                        document.getElementById("year").innerHTML = todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
-                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
-                    } else {
-                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
-                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
-                    }
-                }
-                setInterval(siteTime, 1000);
-            </script>
-            
-            <br>
-            
-        </div>
-        <div class="col s12 m4 l4 social-link social-statis">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+  
+  <div
+    class="container row center-align"
+    style="margin-bottom: 15px !important;"
+  >
+    <div class="col s12 m8 l8 copy-right">
+      Copyright&nbsp;&copy; 
+      <span id="year">2022</span>
+      
+      <span id="year">2022</span>
+      <a href="/about" target="_blank"
+        >Snyaaa</a
+      >
+      <!-- |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a> -->
+      <!-- |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a> -->
+      <br />
+       &nbsp;<i
+        class="fas fa-chart-area"
+      ></i
+      >&nbsp;站点总字数:&nbsp;<span class="white-color"
+        >35.7k</span
+      >&nbsp;字      
+      <span id="busuanzi_container_site_pv">
+        |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span
+          id="busuanzi_value_site_pv"
+          class="white-color"
+        ></span
+        >&nbsp;次
+      </span>
+       
+      <span id="busuanzi_container_site_uv">
+        |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span
+          id="busuanzi_value_site_uv"
+          class="white-color"
+        ></span
+        >&nbsp;人
+      </span>
+      
+      <br />
+      
+      <span id="sitetime">载入运行时间...</span>
+      <script>
+        function siteTime() {
+          var seconds = 1000;
+          var minutes = seconds * 60;
+          var hours = minutes * 60;
+          var days = hours * 24;
+          var years = days * 365;
+          var today = new Date();
+          var startYear = "2022";
+          var startMonth = "3";
+          var startDate = "25";
+          var startHour = "0";
+          var startMinute = "0";
+          var startSecond = "0";
+          var todayYear = today.getFullYear();
+          var todayMonth = today.getMonth() + 1;
+          var todayDate = today.getDate();
+          var todayHour = today.getHours();
+          var todayMinute = today.getMinutes();
+          var todaySecond = today.getSeconds();
+          var t1 = Date.UTC(
+            startYear,
+            startMonth,
+            startDate,
+            startHour,
+            startMinute,
+            startSecond
+          );
+          var t2 = Date.UTC(
+            todayYear,
+            todayMonth,
+            todayDate,
+            todayHour,
+            todayMinute,
+            todaySecond
+          );
+          var diff = t2 - t1;
+          var diffYears = Math.floor(diff / years);
+          var diffDays = Math.floor(diff / days - diffYears * 365);
+          var diffHours = Math.floor(
+            (diff - (diffYears * 365 + diffDays) * days) / hours
+          );
+          var diffMinutes = Math.floor(
+            (diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+              minutes
+          );
+          var diffSeconds = Math.floor(
+            (diff -
+              (diffYears * 365 + diffDays) * days -
+              diffHours * hours -
+              diffMinutes * minutes) /
+              seconds
+          );
+          if (startYear == todayYear) {
+            document.getElementById("year").innerHTML = todayYear;
+            document.getElementById("sitetime").innerHTML =
+              "本站已安全运行 " +
+              diffDays +
+              " 天 " +
+              diffHours +
+              " 小时 " +
+              diffMinutes +
+              " 分钟 " +
+              diffSeconds +
+              " 秒";
+          } else {
+            document.getElementById("year").innerHTML =
+              startYear + " - " + todayYear;
+            document.getElementById("sitetime").innerHTML =
+              "本站已安全运行 " +
+              diffYears +
+              " 年 " +
+              diffDays +
+              " 天 " +
+              diffHours +
+              " 小时 " +
+              diffMinutes +
+              " 分钟 " +
+              diffSeconds +
+              " 秒";
+          }
+        }
+        setInterval(siteTime, 1000);
+      </script>
+      
+      <br />
+      
     </div>
+    <div class="col s12 m4 l4 social-link social-statis">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
 </footer>
 
 <div class="progress-bar"></div>
