@@ -359,18 +359,19 @@
             <!-- <div class="row">
   <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
     <div class="brand">
-      <div class="title center-align">
-         subtitle 
-      </div>
+      <div class="title center-align"> -->
+<!--  subtitle  -->
+<!--   
+      </div> -->
 
-      <div class="description center-align">
+<!-- <div class="description center-align">
           
-      </div>
-    </div>
+      </div> -->
+<!-- </div>
   </div>
 </div> -->
 
-
+<!-- 
 <script>
   // 每天切换 banner 图.  Switch banner image every day.
   var bannerUrl =
@@ -379,7 +380,12 @@
     ".jpg";
   $(".bg-cover").css("background-image", "url(" + bannerUrl + ")");
 </script>
+ -->
 
+<!-- banner图 -->
+<script>
+  $('.bg-cover').css('background-image', 'url(/medias/banner/7.png)');
+</script>
 
 
             <div class="cover-btns">
@@ -431,7 +437,7 @@
         coverSlider.carousel({
             duration: Number('120'),
             fullWidth: true,
-            indicators: 'true' === 'true',
+            indicators: 'false' === 'true',
             onCycleTo() {
                 if (!initUserPressedOrDraggedActive) {
                     // console.log('initUserPressedOrDraggedActive')
@@ -443,32 +449,11 @@
 
         let carouselIntervalId;
         
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
 
         function restartPlay() {
             
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
         };
 
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
         
     });
 </script>
@@ -539,38 +524,35 @@
       
       <div class="article col s12 m6 l4" data-aos="zoom-in">
         <div class="card">
-          <a href="/2022/04/11/8454.html">
+          <a href="/2022/05/16/32686.html">
             <div class="card-image">
                
               <img
-                src="/medias/featureimages/1.jpg"
+                src="/medias/featureimages/14.jpg"
                 class="responsive-img"
-                alt="序--深圳概览"
+                alt="MIT如何推进工程教育国际化？"
               />
               
-              <span class="card-title">序--深圳概览</span>
-              <!-- <span class="card-title"><h3>序--深圳概览</h3></span> -->
+              <span class="card-title">MIT如何推进工程教育国际化？</span>
+              <!-- <span class="card-title"><h3>MIT如何推进工程教育国际化？</h3></span> -->
             </div>
           </a>
 
           <div class="card-content article-content">
             <div class="summary block-with-text">
-               来源：深圳市人民政府新闻办公室
- 序
-
-深圳,又称鹏城,位于南海之滨,毗邻港澳,是粤港澳大湾区的核心引擎,是一座充满魅力、活力、动力和创新力的国际化创新型大都市。
-深圳,因改革而生,以创新为魂,经济总量迈入亚洲城市前五,是世界工业化、城市化 
+               来源：全球胜任力-清华大学国际教育
+MIT如何推进工程教育国际化？纵观美国麻省理工学院（MIT, Massachusetts Institute of Technology）的发展历程，其在高等教育领域，尤其是工程教育领域的崛起与美国乃至全 
             </div>
             <div class="publish-info">
               <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
+                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
               </span>
               <span class="publish-author">
                 
                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                 
-                <a href="/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/" class="post-category">
-                  深圳风采
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" class="post-category">
+                  国际胜任力
                 </a>
                  
               </span>
@@ -580,8 +562,8 @@
           
           <div class="card-action article-tags">
             
-            <a href="/tags/%E6%B7%B1%E5%9C%B3/">
-              <span class="chip bg-color">深圳</span>
+            <a href="/tags/%E8%A7%86%E9%87%8E%E6%8F%90%E5%8D%87/">
+              <span class="chip bg-color">视野提升</span>
             </a>
             
           </div>
@@ -591,41 +573,35 @@
       
       <div class="article col s12 m6 l4" data-aos="zoom-in">
         <div class="card">
-          <a href="/2022/04/11/52601.html">
+          <a href="/2022/05/16/23477.html">
             <div class="card-image">
                
               <img
-                src="/medias/featureimages/6.jpg"
+                src="/medias/featureimages/19.jpg"
                 class="responsive-img"
-                alt="习近平：坚持把解决好“三农”问题作为全党工作重中之重 举全党全社会之力推动乡村振兴"
+                alt="研究学术的国际流动——大学国际化的特征"
               />
               
-              <span class="card-title">习近平：坚持把解决好“三农”问题作为全党工作重中之重 举全党全社会之力推动乡村振兴</span>
-              <!-- <span class="card-title"><h3>习近平：坚持把解决好“三农”问题作为全党工作重中之重 举全党全社会之力推动乡村振兴</h3></span> -->
+              <span class="card-title">研究学术的国际流动——大学国际化的特征</span>
+              <!-- <span class="card-title"><h3>研究学术的国际流动——大学国际化的特征</h3></span> -->
             </div>
           </a>
 
           <div class="card-content article-content">
             <div class="summary block-with-text">
-               来源：《求是》2022 年第 7 期
-  坚持把解决好“三农”问题作为全党工作重中之重
-
- 举全党全社会之力推动乡村振兴※ 
-
- 习近平 
-
-明年我国将进入“十四五”时期，开启全面建设社会主义现代化国家新征程。在这个重要历史交汇点，召开中央 
+               来源：全球胜任力-清华大学国际教育
+研究|学术的国际流动——大学国际化的特征关于学术流动的全球性热潮是建立在着眼于长远的假设之上，认为学术的国际流动是大学国际化的特征，是智力资本的自由迁移，是知识转移对国家创新和竞争的贡献。近期，在上述假设 
             </div>
             <div class="publish-info">
               <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
+                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
               </span>
               <span class="publish-author">
                 
                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                 
-                <a href="/categories/%E9%A2%86%E5%AF%BC%E8%AE%B2%E8%AF%9D/" class="post-category">
-                  领导讲话
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" class="post-category">
+                  国际胜任力
                 </a>
                  
               </span>
@@ -635,24 +611,12 @@
           
           <div class="card-action article-tags">
             
-            <a href="/tags/%E4%B9%A0%E4%B8%BB%E5%B8%AD/">
-              <span class="chip bg-color">习主席</span>
+            <a href="/tags/%E8%A7%86%E9%87%8E%E6%8F%90%E5%8D%87/">
+              <span class="chip bg-color">视野提升</span>
             </a>
             
-            <a href="/tags/%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4/">
-              <span class="chip bg-color">乡村振兴</span>
-            </a>
-            
-            <a href="/tags/%E7%B2%AE%E9%A3%9F%E5%AE%89%E5%85%A8/">
-              <span class="chip bg-color">粮食安全</span>
-            </a>
-            
-            <a href="/tags/%E5%8D%81%E5%9B%9B%E4%BA%94/">
-              <span class="chip bg-color">十四五</span>
-            </a>
-            
-            <a href="/tags/%E5%9F%8E%E4%B9%A1%E8%9E%8D%E5%90%88/">
-              <span class="chip bg-color">城乡融合</span>
+            <a href="/tags/%E7%A0%94%E7%A9%B6/">
+              <span class="chip bg-color">研究</span>
             </a>
             
           </div>
@@ -662,37 +626,35 @@
       
       <div class="article col s12 m6 l4" data-aos="zoom-in">
         <div class="card">
-          <a href="/2022/04/11/59267.html">
+          <a href="/2022/05/16/29300.html">
             <div class="card-image">
                
               <img
-                src="/medias/featureimages/16.jpg"
+                src="/medias/featureimages/10.jpg"
                 class="responsive-img"
-                alt="［羊城晚报•羊城派］深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量"
+                alt="“海归”“归海”各相宜"
               />
               
-              <span class="card-title">［羊城晚报•羊城派］深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量</span>
-              <!-- <span class="card-title"><h3>［羊城晚报•羊城派］深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量</h3></span> -->
+              <span class="card-title">“海归”“归海”各相宜</span>
+              <!-- <span class="card-title"><h3>“海归”“归海”各相宜</h3></span> -->
             </div>
           </a>
 
           <div class="card-content article-content">
             <div class="summary block-with-text">
-               来源：羊城晚报•羊城派
-  深圳：深信院师生助力北京冬奥会，贡献“深圳信息”力量
-
-2022 年北京冬残奥会于 3 月 4 日开幕。在不久前的北京冬奥会上，中国队以 9 金 4 银 2 铜的成绩，位列奖牌榜第三名，取得了我国参加冬奥会的历史 
+               来源：全球胜任力-清华大学国际教育
+“海归”“归海”各相宜跨国人才流动本来就应该是双向的。有进有出的人才流动，才能成为“活水”。要采取有力措施，吸引、留住更多高层次人才，“聚天下英才而用之”。同时，以开放、积极的心态促进知识、技术、人才的跨 
             </div>
             <div class="publish-info">
               <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
+                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
               </span>
               <span class="publish-author">
                 
                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                 
-                <a href="/categories/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB/" class="post-category">
-                  校园生活
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" class="post-category">
+                  国际胜任力
                 </a>
                  
               </span>
@@ -702,8 +664,8 @@
           
           <div class="card-action article-tags">
             
-            <a href="/tags/%E6%B7%B1%E4%BF%A1/">
-              <span class="chip bg-color">深信</span>
+            <a href="/tags/%E8%A7%86%E9%87%8E%E6%8F%90%E5%8D%87/">
+              <span class="chip bg-color">视野提升</span>
             </a>
             
           </div>
@@ -713,162 +675,153 @@
       
       <div class="article col s12 m6 l4" data-aos="zoom-in">
         <div class="card">
-          <a href="/2022/04/11/33067.html">
-            <div class="card-image">
-               
-              <img
-                src="/medias/featureimages/8.jpg"
-                class="responsive-img"
-                alt="北京冬奥会冬残奥会总结表彰大会隆重举行 习近平发表重要讲话"
-              />
-              
-              <span class="card-title">北京冬奥会冬残奥会总结表彰大会隆重举行 习近平发表重要讲话</span>
-              <!-- <span class="card-title"><h3>北京冬奥会冬残奥会总结表彰大会隆重举行 习近平发表重要讲话</h3></span> -->
-            </div>
-          </a>
-
-          <div class="card-content article-content">
-            <div class="summary block-with-text">
-               来源：“学习强国”学习平台
-  北京冬奥会冬残奥会总结表彰大会隆重举行
-
-  习近平发表重要讲话
-
-
-
-
-
-
-
-  北京冬奥会冬残奥会总结表彰大会隆重举行
-
-  习近平发表重要讲话
-
-  李克强主持 栗战书汪洋王沪宁赵乐际王岐山出席
-
-   
-            </div>
-            <div class="publish-info">
-              <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
-              </span>
-              <span class="publish-author">
-                
-                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                
-                <a href="/categories/%E9%A2%86%E5%AF%BC%E8%AE%B2%E8%AF%9D/" class="post-category">
-                  领导讲话
-                </a>
-                 
-              </span>
-            </div>
-          </div>
-
-          
-          <div class="card-action article-tags">
-            
-            <a href="/tags/%E4%B9%A0%E4%B8%BB%E5%B8%AD/">
-              <span class="chip bg-color">习主席</span>
-            </a>
-            
-          </div>
-          
-        </div>
-      </div>
-      
-      <div class="article col s12 m6 l4" data-aos="zoom-in">
-        <div class="card">
-          <a href="/2022/04/11/8168.html">
-            <div class="card-image">
-               
-              <img
-                src="/medias/featureimages/4.jpg"
-                class="responsive-img"
-                alt="创新驱动--深圳概览"
-              />
-              
-              <span class="card-title">创新驱动--深圳概览</span>
-              <!-- <span class="card-title"><h3>创新驱动--深圳概览</h3></span> -->
-            </div>
-          </a>
-
-          <div class="card-content article-content">
-            <div class="summary block-with-text">
-               来源：深圳市人民政府新闻办公室
-  创新驱动
-
-深圳是一座因创新而生的城市。发行新中国第一支股票、敲响中国土地拍卖“第一槌”,深圳从特区创立之初率先冲破旧观念,传播新思想,以一个又一个“第一”为中国改革发展创新探路。面临转型发展期,深圳出台 
-            </div>
-            <div class="publish-info">
-              <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
-              </span>
-              <span class="publish-author">
-                
-                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                
-                <a href="/categories/%E6%B7%B1%E5%9C%B3%E9%A3%8E%E9%87%87/" class="post-category">
-                  深圳风采
-                </a>
-                 
-              </span>
-            </div>
-          </div>
-
-          
-          <div class="card-action article-tags">
-            
-            <a href="/tags/%E6%B7%B1%E5%9C%B3/">
-              <span class="chip bg-color">深圳</span>
-            </a>
-            
-          </div>
-          
-        </div>
-      </div>
-      
-      <div class="article col s12 m6 l4" data-aos="zoom-in">
-        <div class="card">
-          <a href="/2022/04/11/4208.html">
+          <a href="/2022/05/16/29300.html">
             <div class="card-image">
                
               <img
                 src="/medias/featureimages/9.jpg"
                 class="responsive-img"
-                alt="5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开"
+                alt="观点钟周：从国际教育比较谈人才培养"
               />
               
-              <span class="card-title">5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开</span>
-              <!-- <span class="card-title"><h3>5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开</h3></span> -->
+              <span class="card-title">观点钟周：从国际教育比较谈人才培养</span>
+              <!-- <span class="card-title"><h3>观点钟周：从国际教育比较谈人才培养</h3></span> -->
             </div>
           </a>
 
           <div class="card-content article-content">
             <div class="summary block-with-text">
-               来源：深圳信息职业技术学院官网
-  5000余人线上参会！首届《诗经》文化教育研讨峰会在我校召开
-
-
-
-
-日前，由我校全国高校中华优秀传统文化传承基地（诗经文化）主办的首届《诗经》文化教育研讨峰会面向全国召开。来自北京、上海、陕西、河北、河 
+               来源：全球胜任力-清华大学国际教育
+观点钟周：从国际教育比较谈人才培养【编者按】3月17日晚7点，“团学道·新思享”高校共青团思想沙龙第十一期活动在中国青年政治学院素拓中心举办。本期活动的主题为“大学人才培养的国际比较”。在主旨演讲环节，清 
             </div>
             <div class="publish-info">
               <span class="publish-date">
-                <i class="far fa-clock fa-fw icon-date"></i>2022-04-11
+                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
               </span>
               <span class="publish-author">
                 
                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                 
-                <a href="/categories/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB/" class="post-category">
-                  校园生活
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" class="post-category">
+                  国际胜任力
                 </a>
                  
               </span>
             </div>
           </div>
 
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/%E8%A7%86%E9%87%8E%E6%8F%90%E5%8D%87/">
+              <span class="chip bg-color">视野提升</span>
+            </a>
+            
+            <a href="/tags/%E8%A7%82%E7%82%B9/">
+              <span class="chip bg-color">观点</span>
+            </a>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="article col s12 m6 l4" data-aos="zoom-in">
+        <div class="card">
+          <a href="/2022/05/16/49291.html">
+            <div class="card-image">
+               
+              <img
+                src="/medias/featureimages/21.jpg"
+                class="responsive-img"
+                alt="视野十问耶鲁大学校长"
+              />
+              
+              <span class="card-title">视野十问耶鲁大学校长</span>
+              <!-- <span class="card-title"><h3>视野十问耶鲁大学校长</h3></span> -->
+            </div>
+          </a>
+
+          <div class="card-content article-content">
+            <div class="summary block-with-text">
+               来源：全球胜任力-清华大学国际教育
+视野|十问耶鲁大学校长**“世界一流大学”是当下国内一批名校的头等目标。最新提出的计划是，到2020年，若干所大学进入世界一流行列，到2030年，更多的大学进入世界一流行列。不仅是传统名校在推进，新近筹备 
+            </div>
+            <div class="publish-info">
+              <span class="publish-date">
+                <i class="far fa-clock fa-fw icon-date"></i>2022-05-16
+              </span>
+              <span class="publish-author">
+                
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" class="post-category">
+                  国际胜任力
+                </a>
+                 
+              </span>
+            </div>
+          </div>
+
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/%E8%A7%86%E9%87%8E%E6%8F%90%E5%8D%87/">
+              <span class="chip bg-color">视野提升</span>
+            </a>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="article col s12 m6 l4" data-aos="zoom-in">
+        <div class="card">
+          <a href="/2022/05/15/17609.html">
+            <div class="card-image">
+               
+              <img
+                src="/medias/featureimages/21.jpg"
+                class="responsive-img"
+                alt="哈佛通识教育改革与全球胜任力培养"
+              />
+              
+              <span class="card-title">哈佛通识教育改革与全球胜任力培养</span>
+              <!-- <span class="card-title"><h3>哈佛通识教育改革与全球胜任力培养</h3></span> -->
+            </div>
+          </a>
+
+          <div class="card-content article-content">
+            <div class="summary block-with-text">
+               来源：全球胜任力-清华大学国际教育
+哈佛通识教育改革与全球胜任力培养
+
+哈佛大学是全球通识教育的先驱，1945年出版的《自由社会中的通识教育》（又称《哈佛通识教育红皮书》）一直被奉为“现代大学通识教育的圣经”。因此，哈佛大学新一轮的通识教育 
+            </div>
+            <div class="publish-info">
+              <span class="publish-date">
+                <i class="far fa-clock fa-fw icon-date"></i>2022-05-15
+              </span>
+              <span class="publish-author">
+                
+                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                
+                <a href="/categories/%E5%9B%BD%E9%99%85%E8%83%9C%E4%BB%BB%E5%8A%9B/" class="post-category">
+                  国际胜任力
+                </a>
+                 
+              </span>
+            </div>
+          </div>
+
+          
+          <div class="card-action article-tags">
+            
+            <a href="/tags/%E8%A7%86%E9%87%8E%E6%8F%90%E5%8D%87/">
+              <span class="chip bg-color">视野提升</span>
+            </a>
+            
+          </div>
           
         </div>
       </div>
@@ -888,7 +841,7 @@
     </div>
     <div class="page-info col m4 l4 hide-on-small-only">
       <div class="center-align b-text-gray">
-        1 / 4
+        1 / 5
       </div>
     </div>
     <div class="col s6 m4 l4">
@@ -929,7 +882,7 @@
         class="fas fa-chart-area"
       ></i
       >&nbsp;站点总字数:&nbsp;<span class="white-color"
-        >35.8k</span
+        >67.7k</span
       >&nbsp;字      
       <span id="busuanzi_container_site_pv">
         |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span

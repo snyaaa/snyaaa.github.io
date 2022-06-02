@@ -316,22 +316,22 @@
 </style>
 
 <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <!-- <div class="row">
+  <!-- <div class="container"><!-- <div class="row">
   <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
     <div class="brand">
-      <div class="title center-align">
-         subtitle 
-      </div>
+      <div class="title center-align"> -->
+<!--  subtitle  -->
+<!--  about 
+      </div> -->
 
-      <div class="description center-align">
+<!-- <div class="description center-align">
           
-      </div>
-    </div>
+      </div> -->
+<!-- </div>
   </div>
 </div> -->
 
-
+<!-- 
 <script>
   // 每天切换 banner 图.  Switch banner image every day.
   var bannerUrl =
@@ -340,10 +340,46 @@
     ".jpg";
   $(".bg-cover").css("background-image", "url(" + bannerUrl + ")");
 </script>
+ -->
 
+<!-- banner图 -->
+<script>
+  $('.bg-cover').css('background-image', 'url(/medias/banner/7.png)');
+</script>
+</div> -->
+  <div class="container"><!-- <div class="row">
+  <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+    <div class="brand">
+      <div class="title center-align"> -->
+<!--  subtitle  -->
+<!--  about 
+      </div> -->
 
-    </div>
+<!-- <div class="description center-align">
+          
+      </div> -->
+<!-- </div>
+  </div>
+</div> -->
+
+<!-- 
+<script>
+  // 每天切换 banner 图.  Switch banner image every day.
+  var bannerUrl =
+    "/medias/banner/" +
+    new Date().getDay() +
+    ".jpg";
+  $(".bg-cover").css("background-image", "url(" + bannerUrl + ")");
+</script>
+ -->
+
+<!-- banner图 -->
+<script>
+  $('.bg-cover').css('background-image', 'url(/medias/banner/7.png)');
+</script>
 </div>
+</div>
+
 
 <main class="content">
 
@@ -354,7 +390,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">20</a></span>
+    <span class="count"><a href="/">30</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -368,7 +404,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">22</a></span>
+    <span class="count"><a href="/tags">25</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -384,7 +420,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">20</a></span>
+    <span class="count"><a href="/">30</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -398,7 +434,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">22</a></span>
+    <span class="count"><a href="/tags">25</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -500,7 +536,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2021-04","2021-05","2021-06","2021-07","2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04"]
+            data: ["2021-06","2021-07","2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06"]
         },
         yAxis: {
             type: 'value',
@@ -510,7 +546,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,2,18],
+                data: [1,0,0,0,0,0,0,0,0,2,19,8,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -552,7 +588,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"国际胜任力","value":1},{"name":"项目展示","value":1},{"name":"校园生活","value":4},{"name":"时事热点","value":4},{"name":"大师分析","value":5},{"name":"深圳风采","value":3},{"name":"领导讲话","value":2}],
+                data: [{"name":"国际胜任力","value":8},{"name":"项目展示","value":1},{"name":"校园生活","value":4},{"name":"时事热点","value":4},{"name":"大师分析","value":5},{"name":"深圳风采","value":3},{"name":"领导讲话","value":5}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -576,7 +612,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["框架","深圳","人类命运共同体","一带一路","中国","新冠","习主席","金灿荣","美国","国际秩序"]
+                data: ["视野提升","习主席","框架","深圳","人类命运共同体","一带一路","中国","新冠","金灿荣","美国"]
             }
         ],
         yAxis: [
@@ -589,7 +625,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [3,3,2,2,2,2,2,2,2,1],
+                data: [7,5,3,3,2,2,2,2,2,2],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -694,7 +730,7 @@
         class="fas fa-chart-area"
       ></i
       >&nbsp;站点总字数:&nbsp;<span class="white-color"
-        >35.8k</span
+        >67.7k</span
       >&nbsp;字      
       <span id="busuanzi_container_site_pv">
         |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span
